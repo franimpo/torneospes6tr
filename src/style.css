@@ -12,3 +12,15 @@
 .tabs button.selected{color:#fb7185;border-bottom-color:#e11d2e}.status{background:#451a23;color:#fecdd3}
 .standings .points{background:#3c1720;color:#fff}.rank.first,.score{color:#fb7185}
 .online-dot,.green-mark{background:#e11d2e;box-shadow:0 0 10px #e11d2e77}
+
+/* PES 6 TR v5 */
+.standings{min-width:740px}
+.standings th:nth-child(2){width:27%}
+.icon-action{background:transparent;border:1px solid #52525b;color:#fda4af;padding:7px;border-radius:7px;display:inline-flex;cursor:pointer}
+.icon-action:hover{border-color:#e11d2e;background:#3f131a}
+.bye-row{display:flex;align-items:center;gap:14px;background:#27272a;border:1px dashed #52525b;border-radius:9px;padding:15px 20px;color:#fda4af}
+.bye-row div{display:flex;flex-direction:column;gap:4px}
+.bye-row span{color:#e4e4e7;font-size:13px}
+.result-participant{display:block;color:#a1a1aa;font-size:11px;font-weight:400;margin-top:5px}
+.result-editor label{min-width:0;overflow-wrap:anywhere;text-align:center}
+.head-actions{flex-wrap:wrap}
